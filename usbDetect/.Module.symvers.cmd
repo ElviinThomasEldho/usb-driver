@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/usbDetect/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/pseudoku/Desktop/GenRobotics/usbDetect/Module.symvers -T /home/pseudoku/Desktop/GenRobotics/usbDetect/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/usbEject/modules.order := {   echo /home/pseudoku/Desktop/GenRobotics/usbEject/usb-eject.o; :; } > /home/pseudoku/Desktop/GenRobotics/usbEject/modules.order

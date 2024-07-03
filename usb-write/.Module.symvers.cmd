@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/usb-write/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/pseudoku/Desktop/GenRobotics/usb-write/Module.symvers -T /home/pseudoku/Desktop/GenRobotics/usb-write/modules.order -i Module.symvers -e 

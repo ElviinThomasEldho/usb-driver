@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/usbDetect/modules.order := {   echo /home/pseudoku/Desktop/GenRobotics/usbDetect/usb-detect.o; :; } > /home/pseudoku/Desktop/GenRobotics/usbDetect/modules.order

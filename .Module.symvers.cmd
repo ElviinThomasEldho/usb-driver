@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/pseudoku/Desktop/GenRobotics/Module.symvers -T /home/pseudoku/Desktop/GenRobotics/modules.order -i Module.symvers -e 
