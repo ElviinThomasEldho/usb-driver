@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/embetronics/usb-talk-2/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/elviin/Desktop/embetronics/usb-talk-2/Module.symvers -T /home/elviin/Desktop/embetronics/usb-talk-2/modules.order -i Module.symvers -e 

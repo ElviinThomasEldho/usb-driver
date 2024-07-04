@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/embetronics/usb-talk-2/driver.mod := printf '%s\n'   driver.o | awk '!x[$$0]++ { print("/home/elviin/Desktop/embetronics/usb-talk-2/"$$0) }' > /home/elviin/Desktop/embetronics/usb-talk-2/driver.mod
