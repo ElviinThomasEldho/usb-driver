@@ -1,0 +1,1 @@
+cmd_/home/elviin/Desktop/usb-driver/keyboard-mouse-test/driver.mod := { echo  /home/elviin/Desktop/usb-driver/keyboard-mouse-test/driver.o;  echo; } > /home/elviin/Desktop/usb-driver/keyboard-mouse-test/driver.mod

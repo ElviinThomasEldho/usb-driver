@@ -1,0 +1,1 @@
+cmd_/home/elviin/Desktop/usb-driver/keyboard-mouse-test/Module.symvers := sed 's/\.ko$$/\.o/' /home/elviin/Desktop/usb-driver/keyboard-mouse-test/modules.order | scripts/mod/modpost -m -a  -o /home/elviin/Desktop/usb-driver/keyboard-mouse-test/Module.symvers -e -i Module.symvers   -T -

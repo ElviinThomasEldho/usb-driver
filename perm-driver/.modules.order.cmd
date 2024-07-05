@@ -1,0 +1,1 @@
+cmd_/home/elviin/Desktop/usb-driver/perm-driver/modules.order := {   echo /home/elviin/Desktop/usb-driver/perm-driver/perm-driver.ko; :; } | awk '!x[$$0]++' - > /home/elviin/Desktop/usb-driver/perm-driver/modules.order

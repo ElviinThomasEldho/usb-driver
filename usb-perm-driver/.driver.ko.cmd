@@ -1,0 +1,1 @@
+cmd_/home/elviin/Desktop/usb-driver/usb-perm-driver/driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/elviin/Desktop/usb-driver/usb-perm-driver/driver.ko /home/elviin/Desktop/usb-driver/usb-perm-driver/driver.o /home/elviin/Desktop/usb-driver/usb-perm-driver/driver.mod.o;  true
