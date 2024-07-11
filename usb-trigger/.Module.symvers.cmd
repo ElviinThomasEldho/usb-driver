@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Desktop/usb-driver-master/usb-trigger/Module.symvers := sed 's/\.ko$$/\.o/' /home/pseudoku/Desktop/usb-driver-master/usb-trigger/modules.order | scripts/mod/modpost -m -a  -o /home/pseudoku/Desktop/usb-driver-master/usb-trigger/Module.symvers -e -i Module.symvers   -T -

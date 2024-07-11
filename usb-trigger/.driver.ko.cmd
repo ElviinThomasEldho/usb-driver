@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.ko /home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.o /home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.mod.o;  true
