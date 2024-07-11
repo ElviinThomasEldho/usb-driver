@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/netlink-socket-2/kernel/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/elviin/Desktop/netlink-socket-2/kernel/Module.symvers -T /home/elviin/Desktop/netlink-socket-2/kernel/modules.order -i Module.symvers -e 

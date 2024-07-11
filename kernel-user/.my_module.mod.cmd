@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/kernel-user/my_module.mod := printf '%s\n'   my_module.o | awk '!x[$$0]++ { print("/home/elviin/Desktop/kernel-user/"$$0) }' > /home/elviin/Desktop/kernel-user/my_module.mod

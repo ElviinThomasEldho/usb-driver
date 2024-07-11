@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/netlink-socket-2/kernel/modules.order := {   echo /home/elviin/Desktop/netlink-socket-2/kernel/netlink_mod.o; :; } > /home/elviin/Desktop/netlink-socket-2/kernel/modules.order

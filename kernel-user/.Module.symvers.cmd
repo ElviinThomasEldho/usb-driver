@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/kernel-user/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/elviin/Desktop/kernel-user/Module.symvers -T /home/elviin/Desktop/kernel-user/modules.order -i Module.symvers -e 

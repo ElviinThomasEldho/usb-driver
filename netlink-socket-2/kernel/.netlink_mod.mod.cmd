@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/netlink-socket-2/kernel/netlink_mod.mod := printf '%s\n'   netlink_mod.o | awk '!x[$$0]++ { print("/home/elviin/Desktop/netlink-socket-2/kernel/"$$0) }' > /home/elviin/Desktop/netlink-socket-2/kernel/netlink_mod.mod

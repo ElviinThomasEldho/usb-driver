@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/socket-communication/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/elviin/Desktop/socket-communication/Module.symvers -T /home/elviin/Desktop/socket-communication/modules.order -i Module.symvers -e 

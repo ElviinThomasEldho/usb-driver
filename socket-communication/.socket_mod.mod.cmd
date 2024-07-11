@@ -1,0 +1,1 @@
+savedcmd_/home/elviin/Desktop/socket-communication/socket_mod.mod := printf '%s\n'   socket_mod.o | awk '!x[$$0]++ { print("/home/elviin/Desktop/socket-communication/"$$0) }' > /home/elviin/Desktop/socket-communication/socket_mod.mod
