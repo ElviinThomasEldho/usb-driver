@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Desktop/UltrasonicTrigger/modules.order := {   echo /home/pseudoku/Desktop/UltrasonicTrigger/pause_mod.ko; :; } | awk '!x[$$0]++' - > /home/pseudoku/Desktop/UltrasonicTrigger/modules.order

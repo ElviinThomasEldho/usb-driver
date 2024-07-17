@@ -1,1 +1,1 @@
-cmd_/home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.mod := { echo  /home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.o;  echo; } > /home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.mod
+cmd_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.mod := { echo  /home/pseudoku/Documents/usb-driver/usb-trigger/driver.o;  echo; } > /home/pseudoku/Documents/usb-driver/usb-trigger/driver.mod

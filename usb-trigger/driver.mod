@@ -1,2 +1,2 @@
-/home/pseudoku/Desktop/usb-driver-master/usb-trigger/driver.o
+/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o
 

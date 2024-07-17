@@ -1,8 +1,8 @@
-cmd_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := gcc -Wp,-MMD,/home/pseudoku/Documents/usb-driver/usb-trigger/.driver.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"driver"' -DKBUILD_MODNAME='"driver"' -D__KBUILD_MODNAME=kmod_driver -c -o /home/pseudoku/Documents/usb-driver/usb-trigger/driver.o /home/pseudoku/Documents/usb-driver/usb-trigger/driver.c
+cmd_/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o := gcc -Wp,-MMD,/home/pseudoku/Documents/usb-driver/user-pid-pause/.pause_mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"pause_mod"' -DKBUILD_MODNAME='"pause_mod"' -D__KBUILD_MODNAME=kmod_pause_mod -c -o /home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o /home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.c
 
-source_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := /home/pseudoku/Documents/usb-driver/usb-trigger/driver.c
+source_/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o := /home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.c
 
-deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
+deps_/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -17,23 +17,33 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/RETPOLINE) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/KCOV) \
-  include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+  include/linux/module.h \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/SYSFS) \
+    $(wildcard include/config/MODULES_TREE_LOOKUP) \
+    $(wildcard include/config/LIVEPATCH) \
+    $(wildcard include/config/STACKTRACE_BUILD_ID) \
+    $(wildcard include/config/CFI_CLANG) \
+    $(wildcard include/config/MODULE_SIG) \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/SMP) \
-    $(wildcard include/config/MMU) \
-    $(wildcard include/config/PROVE_LOCKING) \
+    $(wildcard include/config/TRACEPOINTS) \
+    $(wildcard include/config/TREE_SRCU) \
+    $(wildcard include/config/BPF_EVENTS) \
+    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
+    $(wildcard include/config/JUMP_LABEL) \
     $(wildcard include/config/TRACING) \
+    $(wildcard include/config/EVENT_TRACING) \
     $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
-  include/linux/stdarg.h \
-  include/linux/align.h \
-  include/linux/const.h \
-  include/vdso/const.h \
-  include/uapi/linux/const.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
+    $(wildcard include/config/KPROBES) \
+    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/MODULE_UNLOAD) \
+    $(wildcard include/config/CONSTRUCTORS) \
+    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
+  include/linux/list.h \
+    $(wildcard include/config/DEBUG_LIST) \
   include/linux/types.h \
     $(wildcard include/config/HAVE_UID16) \
     $(wildcard include/config/UID16) \
@@ -57,6 +67,22 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/X86_32) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
+  include/linux/poison.h \
+    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
+  include/linux/const.h \
+  include/vdso/const.h \
+  include/uapi/linux/const.h \
+  include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/PROVE_LOCKING) \
+  include/linux/stdarg.h \
+  include/linux/align.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
   include/vdso/limits.h \
   include/linux/linkage.h \
     $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
@@ -65,13 +91,11 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/MODVERSIONS) \
     $(wildcard include/config/MODULE_REL_CRCS) \
     $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/MODULES) \
     $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
     $(wildcard include/config/STACK_VALIDATION) \
-    $(wildcard include/config/CFI_CLANG) \
   arch/x86/include/generated/asm/rwonce.h \
   include/asm-generic/rwonce.h \
   include/linux/kasan-checks.h \
@@ -96,7 +120,6 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/X86_CMOV) \
   arch/x86/include/asm/alternative.h \
   arch/x86/include/asm/asm.h \
-    $(wildcard include/config/KPROBES) \
   arch/x86/include/asm/extable_fixup_types.h \
   arch/x86/include/asm/rmwcc.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO) \
@@ -156,7 +179,6 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
     $(wildcard include/config/EARLY_PRINTK) \
     $(wildcard include/config/PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   include/linux/init.h \
@@ -193,33 +215,11 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   include/linux/rwlock_types.h \
   include/linux/once_lite.h \
   include/linux/dynamic_debug.h \
-    $(wildcard include/config/JUMP_LABEL) \
   include/linux/jump_label.h \
     $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
   arch/x86/include/asm/jump_label.h \
   include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
-    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
-  include/linux/module.h \
-    $(wildcard include/config/SYSFS) \
-    $(wildcard include/config/MODULES_TREE_LOOKUP) \
-    $(wildcard include/config/LIVEPATCH) \
-    $(wildcard include/config/STACKTRACE_BUILD_ID) \
-    $(wildcard include/config/MODULE_SIG) \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/TRACEPOINTS) \
-    $(wildcard include/config/TREE_SRCU) \
-    $(wildcard include/config/BPF_EVENTS) \
-    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
-    $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/MODULE_UNLOAD) \
-    $(wildcard include/config/CONSTRUCTORS) \
-    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
-  include/linux/list.h \
-    $(wildcard include/config/DEBUG_LIST) \
-  include/linux/poison.h \
-    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -668,34 +668,6 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
   arch/x86/include/asm/orc_types.h \
-  include/linux/usb.h \
-    $(wildcard include/config/USB_MON) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/ACPI) \
-    $(wildcard include/config/USB) \
-    $(wildcard include/config/USB_LED_TRIG) \
-  include/linux/mod_devicetable.h \
-  include/linux/uuid.h \
-  include/uapi/linux/uuid.h \
-  include/linux/usb/ch9.h \
-  include/linux/device.h \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-    $(wildcard include/config/SYSFS_DEPRECATED) \
-  include/linux/dev_printk.h \
-  include/linux/ratelimit.h \
   include/linux/sched.h \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
@@ -819,106 +791,10 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   arch/x86/include/generated/asm/kmap_size.h \
   include/asm-generic/kmap_size.h \
     $(wildcard include/config/DEBUG_KMAP_LOCAL) \
-  include/linux/energy_model.h \
-  include/linux/sched/cpufreq.h \
-    $(wildcard include/config/CPU_FREQ) \
-  include/linux/sched/topology.h \
-    $(wildcard include/config/SCHED_DEBUG) \
-    $(wildcard include/config/SCHED_MC) \
-    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
-  include/linux/sched/idle.h \
-  include/linux/sched/sd_flags.h \
-  include/linux/ioport.h \
-  include/linux/klist.h \
-  include/linux/pm.h \
-    $(wildcard include/config/VT_CONSOLE_SLEEP) \
-    $(wildcard include/config/PM_CLK) \
-    $(wildcard include/config/PM_GENERIC_DOMAINS) \
-  include/linux/device/bus.h \
-  include/linux/device/class.h \
-  include/linux/device/driver.h \
-  arch/x86/include/asm/device.h \
-  include/linux/pm_wakeup.h \
-  include/uapi/linux/usb/ch9.h \
   include/linux/delay.h \
   arch/x86/include/asm/delay.h \
   include/asm-generic/delay.h \
-  include/linux/interrupt.h \
-    $(wildcard include/config/IRQ_FORCED_THREADING) \
-    $(wildcard include/config/GENERIC_IRQ_PROBE) \
-    $(wildcard include/config/IRQ_TIMINGS) \
-  include/linux/irqreturn.h \
-  include/linux/irqnr.h \
-  include/uapi/linux/irqnr.h \
-  include/linux/hardirq.h \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/CONTEXT_TRACKING) \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/HWLAT_TRACER) \
-    $(wildcard include/config/OSNOISE_TRACER) \
-  include/linux/vtime.h \
-    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
-    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
-  arch/x86/include/asm/hardirq.h \
-    $(wildcard include/config/KVM_INTEL) \
-    $(wildcard include/config/HAVE_KVM) \
-    $(wildcard include/config/X86_THERMAL_VECTOR) \
-    $(wildcard include/config/X86_MCE_THRESHOLD) \
-    $(wildcard include/config/X86_MCE_AMD) \
-    $(wildcard include/config/X86_HV_CALLBACK_VECTOR) \
-    $(wildcard include/config/HYPERV) \
-  arch/x86/include/asm/irq.h \
-  arch/x86/include/asm/irq_vectors.h \
-    $(wildcard include/config/X86_IO_APIC) \
-    $(wildcard include/config/PCI_MSI) \
-  arch/x86/include/asm/sections.h \
-  include/asm-generic/sections.h \
-  arch/x86/include/asm/extable.h \
-    $(wildcard include/config/BPF_JIT) \
-  include/linux/fs.h \
-    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
-    $(wildcard include/config/FS_POSIX_ACL) \
-    $(wildcard include/config/CGROUP_WRITEBACK) \
-    $(wildcard include/config/IMA) \
-    $(wildcard include/config/FILE_LOCKING) \
-    $(wildcard include/config/FSNOTIFY) \
-    $(wildcard include/config/FS_ENCRYPTION) \
-    $(wildcard include/config/FS_VERITY) \
-    $(wildcard include/config/EPOLL) \
-    $(wildcard include/config/UNICODE) \
-    $(wildcard include/config/QUOTA) \
-    $(wildcard include/config/BLK_DEV_LOOP) \
-    $(wildcard include/config/FS_DAX) \
-    $(wildcard include/config/MIGRATION) \
-  include/linux/wait_bit.h \
-  include/linux/kdev_t.h \
-  include/uapi/linux/kdev_t.h \
-  include/linux/dcache.h \
-  include/linux/rculist_bl.h \
-  include/linux/list_bl.h \
-  include/linux/bit_spinlock.h \
-  include/linux/lockref.h \
-    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
-  include/linux/stringhash.h \
-    $(wildcard include/config/DCACHE_WORD_ACCESS) \
-  include/linux/hash.h \
-    $(wildcard include/config/HAVE_ARCH_HASH) \
-  include/linux/path.h \
-  include/linux/list_lru.h \
-    $(wildcard include/config/MEMCG_KMEM) \
-  include/linux/shrinker.h \
-  include/linux/capability.h \
-  include/uapi/linux/capability.h \
-  include/linux/semaphore.h \
-  include/linux/fcntl.h \
-    $(wildcard include/config/ARCH_32BIT_OFF_T) \
-  include/uapi/linux/fcntl.h \
-  arch/x86/include/generated/uapi/asm/fcntl.h \
-  include/uapi/asm-generic/fcntl.h \
-  include/uapi/linux/openat2.h \
-  include/linux/migrate_mode.h \
-  include/linux/percpu-rwsem.h \
-  include/linux/rcuwait.h \
+  include/linux/kthread.h \
   include/linux/sched/signal.h \
     $(wildcard include/config/SCHED_AUTOGROUP) \
     $(wildcard include/config/BSD_PROCESS_ACCT) \
@@ -942,52 +818,24 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/ARCH_HAS_COPY_MC) \
     $(wildcard include/config/X86_INTEL_USERCOPY) \
   arch/x86/include/asm/smap.h \
+  arch/x86/include/asm/extable.h \
+    $(wildcard include/config/BPF_JIT) \
   arch/x86/include/asm/uaccess_64.h \
   include/linux/cred.h \
     $(wildcard include/config/DEBUG_CREDENTIALS) \
+  include/linux/capability.h \
+  include/uapi/linux/capability.h \
   include/linux/key.h \
     $(wildcard include/config/KEY_NOTIFICATIONS) \
     $(wildcard include/config/NET) \
   include/linux/assoc_array.h \
     $(wildcard include/config/ASSOCIATIVE_ARRAY) \
   include/linux/sched/user.h \
+    $(wildcard include/config/EPOLL) \
     $(wildcard include/config/VFIO_PCI_ZDEV_KVM) \
     $(wildcard include/config/WATCH_QUEUE) \
   include/linux/percpu_counter.h \
-  include/linux/rcu_sync.h \
-  include/linux/delayed_call.h \
-  include/linux/errseq.h \
-  include/linux/ioprio.h \
-  include/linux/sched/rt.h \
-  include/linux/iocontext.h \
-  include/uapi/linux/ioprio.h \
-  include/linux/fs_types.h \
-  include/linux/mount.h \
-  include/linux/mnt_idmapping.h \
-  include/uapi/linux/fs.h \
-  include/linux/quota.h \
-    $(wildcard include/config/QUOTA_NETLINK_INTERFACE) \
-  include/uapi/linux/dqblk_xfs.h \
-  include/linux/dqblk_v1.h \
-  include/linux/dqblk_v2.h \
-  include/linux/dqblk_qtree.h \
-  include/linux/projid.h \
-  include/uapi/linux/quota.h \
-  include/linux/nfs_fs_i.h \
-  include/linux/pm_runtime.h \
-  include/linux/slab.h \
-    $(wildcard include/config/DEBUG_SLAB) \
-    $(wildcard include/config/FAILSLAB) \
-    $(wildcard include/config/HAVE_HARDENED_USERCOPY_ALLOCATOR) \
-    $(wildcard include/config/SLAB) \
-    $(wildcard include/config/SLUB) \
-    $(wildcard include/config/SLOB) \
-    $(wildcard include/config/CC_IS_GCC) \
-    $(wildcard include/config/CLANG_VERSION) \
-  include/linux/percpu-refcount.h \
-  include/linux/kasan.h \
-    $(wildcard include/config/KASAN_STACK) \
-    $(wildcard include/config/KASAN_VMALLOC) \
+  include/linux/ratelimit.h \
   include/net/sock.h \
     $(wildcard include/config/IPV6) \
     $(wildcard include/config/SOCK_RX_QUEUE_MAPPING) \
@@ -998,6 +846,23 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/INET) \
     $(wildcard include/config/SOCK_CGROUP_DATA) \
     $(wildcard include/config/TLS_DEVICE) \
+  include/linux/hardirq.h \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  arch/x86/include/asm/hardirq.h \
+    $(wildcard include/config/KVM_INTEL) \
+    $(wildcard include/config/HAVE_KVM) \
+    $(wildcard include/config/X86_THERMAL_VECTOR) \
+    $(wildcard include/config/X86_MCE_THRESHOLD) \
+    $(wildcard include/config/X86_MCE_AMD) \
+    $(wildcard include/config/X86_HV_CALLBACK_VECTOR) \
+    $(wildcard include/config/HYPERV) \
   include/linux/list_nulls.h \
   include/linux/netdevice.h \
     $(wildcard include/config/DCB) \
@@ -1156,6 +1021,69 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/NETFILTER_XT_TARGET_TRACE) \
   include/linux/bvec.h \
   include/linux/highmem.h \
+  include/linux/fs.h \
+    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
+    $(wildcard include/config/FS_POSIX_ACL) \
+    $(wildcard include/config/CGROUP_WRITEBACK) \
+    $(wildcard include/config/IMA) \
+    $(wildcard include/config/FILE_LOCKING) \
+    $(wildcard include/config/FSNOTIFY) \
+    $(wildcard include/config/FS_ENCRYPTION) \
+    $(wildcard include/config/FS_VERITY) \
+    $(wildcard include/config/UNICODE) \
+    $(wildcard include/config/QUOTA) \
+    $(wildcard include/config/BLK_DEV_LOOP) \
+    $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/MIGRATION) \
+  include/linux/wait_bit.h \
+  include/linux/kdev_t.h \
+  include/uapi/linux/kdev_t.h \
+  include/linux/dcache.h \
+  include/linux/rculist_bl.h \
+  include/linux/list_bl.h \
+  include/linux/bit_spinlock.h \
+  include/linux/lockref.h \
+    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
+  include/linux/stringhash.h \
+    $(wildcard include/config/DCACHE_WORD_ACCESS) \
+  include/linux/hash.h \
+    $(wildcard include/config/HAVE_ARCH_HASH) \
+  include/linux/path.h \
+  include/linux/list_lru.h \
+    $(wildcard include/config/MEMCG_KMEM) \
+  include/linux/shrinker.h \
+  include/linux/semaphore.h \
+  include/linux/fcntl.h \
+    $(wildcard include/config/ARCH_32BIT_OFF_T) \
+  include/uapi/linux/fcntl.h \
+  arch/x86/include/generated/uapi/asm/fcntl.h \
+  include/uapi/asm-generic/fcntl.h \
+  include/uapi/linux/openat2.h \
+  include/linux/migrate_mode.h \
+  include/linux/percpu-rwsem.h \
+  include/linux/rcuwait.h \
+  include/linux/rcu_sync.h \
+  include/linux/delayed_call.h \
+  include/linux/uuid.h \
+  include/uapi/linux/uuid.h \
+  include/linux/errseq.h \
+  include/linux/ioprio.h \
+  include/linux/sched/rt.h \
+  include/linux/iocontext.h \
+  include/uapi/linux/ioprio.h \
+  include/linux/fs_types.h \
+  include/linux/mount.h \
+  include/linux/mnt_idmapping.h \
+  include/uapi/linux/fs.h \
+  include/linux/quota.h \
+    $(wildcard include/config/QUOTA_NETLINK_INTERFACE) \
+  include/uapi/linux/dqblk_xfs.h \
+  include/linux/dqblk_v1.h \
+  include/linux/dqblk_v2.h \
+  include/linux/dqblk_qtree.h \
+  include/linux/projid.h \
+  include/uapi/linux/quota.h \
+  include/linux/nfs_fs_i.h \
   include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
@@ -1182,6 +1110,7 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/HUGETLBFS) \
     $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
   include/linux/mmap_lock.h \
+  include/linux/percpu-refcount.h \
   include/linux/page_ext.h \
   include/linux/stacktrace.h \
     $(wildcard include/config/STACKTRACE) \
@@ -1192,6 +1121,7 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   include/linux/page_ref.h \
     $(wildcard include/config/DEBUG_PAGE_REF) \
   include/linux/memremap.h \
+  include/linux/ioport.h \
   include/linux/sizes.h \
   include/linux/pgtable.h \
     $(wildcard include/config/HIGHPTE) \
@@ -1210,12 +1140,16 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   arch/x86/include/asm/pgtable_64.h \
   arch/x86/include/asm/fixmap.h \
     $(wildcard include/config/PROVIDE_OHCI1394_DMA_INIT) \
+    $(wildcard include/config/X86_IO_APIC) \
     $(wildcard include/config/PCI_MMCONFIG) \
     $(wildcard include/config/ACPI_APEI_GHES) \
     $(wildcard include/config/INTEL_TXT) \
   arch/x86/include/uapi/asm/vsyscall.h \
   include/asm-generic/fixmap.h \
   arch/x86/include/asm/pgtable-invert.h \
+  include/linux/kasan.h \
+    $(wildcard include/config/KASAN_STACK) \
+    $(wildcard include/config/KASAN_VMALLOC) \
   include/linux/huge_mm.h \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
@@ -1234,9 +1168,20 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/ARCH_RANDOM) \
   include/linux/once.h \
   include/uapi/linux/random.h \
+  include/linux/irqnr.h \
+  include/uapi/linux/irqnr.h \
   include/linux/prandom.h \
   arch/x86/include/asm/archrandom.h \
   include/linux/sockptr.h \
+  include/linux/slab.h \
+    $(wildcard include/config/DEBUG_SLAB) \
+    $(wildcard include/config/FAILSLAB) \
+    $(wildcard include/config/HAVE_HARDENED_USERCOPY_ALLOCATOR) \
+    $(wildcard include/config/SLAB) \
+    $(wildcard include/config/SLUB) \
+    $(wildcard include/config/SLOB) \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/CLANG_VERSION) \
   include/uapi/linux/net.h \
   include/linux/textsearch.h \
   include/net/checksum.h \
@@ -1246,6 +1191,44 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/HAS_DMA) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
+  include/linux/device.h \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+    $(wildcard include/config/SYSFS_DEPRECATED) \
+  include/linux/dev_printk.h \
+  include/linux/energy_model.h \
+  include/linux/sched/cpufreq.h \
+    $(wildcard include/config/CPU_FREQ) \
+  include/linux/sched/topology.h \
+    $(wildcard include/config/SCHED_DEBUG) \
+    $(wildcard include/config/SCHED_MC) \
+    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
+  include/linux/sched/idle.h \
+  include/linux/sched/sd_flags.h \
+  include/linux/klist.h \
+  include/linux/pm.h \
+    $(wildcard include/config/VT_CONSOLE_SLEEP) \
+    $(wildcard include/config/PM) \
+    $(wildcard include/config/PM_CLK) \
+    $(wildcard include/config/PM_GENERIC_DOMAINS) \
+  include/linux/device/bus.h \
+    $(wildcard include/config/ACPI) \
+  include/linux/device/class.h \
+  include/linux/device/driver.h \
+  arch/x86/include/asm/device.h \
+  include/linux/pm_wakeup.h \
   include/linux/dma-direction.h \
   include/linux/scatterlist.h \
     $(wildcard include/config/NEED_SG_DMA_LENGTH) \
@@ -1300,6 +1283,16 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
     $(wildcard include/config/FANOTIFY) \
     $(wildcard include/config/PERSISTENT_KEYRINGS) \
   include/linux/kernel_stat.h \
+  include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  include/linux/irqreturn.h \
+  arch/x86/include/asm/irq.h \
+  arch/x86/include/asm/irq_vectors.h \
+    $(wildcard include/config/PCI_MSI) \
+  arch/x86/include/asm/sections.h \
+  include/asm-generic/sections.h \
   include/linux/cgroup-defs.h \
   include/linux/bpf-cgroup.h \
   include/linux/bpf.h \
@@ -1316,7 +1309,6 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   include/linux/bpf_types.h \
     $(wildcard include/config/BPF_LSM) \
   include/linux/psi_types.h \
-  include/linux/kthread.h \
   include/linux/cgroup_subsys.h \
     $(wildcard include/config/CGROUP_DEVICE) \
     $(wildcard include/config/CGROUP_FREEZER) \
@@ -1443,6 +1435,6 @@ deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o := \
   include/uapi/linux/fib_rules.h \
   include/net/fib_notifier.h \
 
-/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o: $(deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o)
+/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o: $(deps_/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o)
 
-$(deps_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.o):
+$(deps_/home/pseudoku/Documents/usb-driver/user-pid-pause/pause_mod.o):
