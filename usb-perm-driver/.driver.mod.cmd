@@ -1,1 +1,1 @@
-cmd_/home/elviin/Desktop/usb-driver/usb-perm-driver/driver.mod := { echo  /home/elviin/Desktop/usb-driver/usb-perm-driver/driver.o;  echo; } > /home/elviin/Desktop/usb-driver/usb-perm-driver/driver.mod
+cmd_/home/pseudoku/Documents/usb-driver/usb-perm-driver/driver.mod := { echo  /home/pseudoku/Documents/usb-driver/usb-perm-driver/driver.o;  echo; } > /home/pseudoku/Documents/usb-driver/usb-perm-driver/driver.mod

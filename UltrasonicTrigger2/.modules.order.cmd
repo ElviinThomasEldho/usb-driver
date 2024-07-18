@@ -1,1 +1,1 @@
-cmd_/home/pseudoku/Desktop/UltrasonicTrigger2/modules.order := {   echo /home/pseudoku/Desktop/UltrasonicTrigger2/serial_reader.ko; :; } | awk '!x[$$0]++' - > /home/pseudoku/Desktop/UltrasonicTrigger2/modules.order
+cmd_/home/pseudoku/Documents/usb-driver/UltrasonicTrigger2/modules.order := {   echo /home/pseudoku/Documents/usb-driver/UltrasonicTrigger2/serial_reader.ko; :; } | awk '!x[$$0]++' - > /home/pseudoku/Documents/usb-driver/UltrasonicTrigger2/modules.order

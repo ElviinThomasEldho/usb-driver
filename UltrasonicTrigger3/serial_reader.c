@@ -13,7 +13,10 @@ static struct task_struct *serial_thread;
 static struct file *filep = NULL;
 static struct task_struct *task;
 struct sock *nl_sk = NULL;
-static int pid = 3333;
+static int pid = -1;
+static int paused = 0;
+module_param(pid, int, 0644);
+MODULE_PARM_DESC(pid, "The PID of the process to pause");
 
 static int pause_thread(void *data) {
     struct task_struct *task_to_pause;
@@ -38,12 +41,14 @@ static int pause_thread(void *data) {
 
     // Suspend the task
     send_sig(SIGSTOP, task_to_pause, 0);
+    paused = 1;
 
     // Delay without sleep
     msleep(5000); // 5 seconds delay
 
     // Resume the task
     send_sig(SIGCONT, task_to_pause, 0);
+    paused = 0;
 
     printk(KERN_INFO "PauseModule: Resuming process with PID %d\n", pid);
 
@@ -73,9 +78,9 @@ static int serial_reader_thread(void *data) {
             printk(KERN_ERR "Read error: %d\n", ret);
         } else {
             buffer[ret] = '\0'; // Null-terminate the string
-            printk(KERN_INFO "Read %d bytes: %s | %s\n", ret, buffer, strstr(buffer, "Object Detected\n"));
+            printk(KERN_INFO "Read %d bytes: %s\n", ret, buffer);
             
-            if(strstr(buffer, "Object Detected") != NULL) {            
+            if(strstr(buffer, "Object Detected") != NULL && paused == 0) {            
 		    printk(KERN_INFO "PauseModule: Initializing module\n");
 		    task = kthread_run(pause_thread, NULL, "pause_thread");
 		    if (IS_ERR(task)) {
@@ -110,6 +115,6 @@ module_init(serial_reader_init);
 module_exit(serial_reader_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
-MODULE_DESCRIPTION("Kernel module for reading from Arduino serial port until device is no longer available");
+MODULE_AUTHOR("Elviin Thomas Eldho");
+MODULE_DESCRIPTION("Kernel module for reading from Arduino serial port until device is no longer available and pausing another user application which controls an Arduino");
 

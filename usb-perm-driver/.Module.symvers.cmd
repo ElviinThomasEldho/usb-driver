@@ -1,1 +1,1 @@
-cmd_/home/elviin/Desktop/usb-driver/usb-perm-driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/elviin/Desktop/usb-driver/usb-perm-driver/modules.order | scripts/mod/modpost -m -a  -o /home/elviin/Desktop/usb-driver/usb-perm-driver/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/pseudoku/Documents/usb-driver/usb-perm-driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/pseudoku/Documents/usb-driver/usb-perm-driver/modules.order | scripts/mod/modpost -m -a  -o /home/pseudoku/Documents/usb-driver/usb-perm-driver/Module.symvers -e -i Module.symvers   -T -
