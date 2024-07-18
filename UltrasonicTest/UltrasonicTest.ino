@@ -26,12 +26,14 @@ void loop() {
  distance = (duration*.0343)/2; 
 
 
- Serial.print("Distance: "); 
- Serial.println(distance); 
+//  Serial.print("Distance: "); 
+//  Serial.println(distance); 
 
 
  if (distance < distanceTreshold) {
    Serial.println("Object Detected"); 
+ } else {
+   Serial.println("Object Not Detected"); 
  }
 
 

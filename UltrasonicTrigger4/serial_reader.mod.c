@@ -33,13 +33,13 @@ __used __section("__versions") = {
 	{ 0x9987d206, "filp_open" },
 	{ 0xd0da656b, "__stack_chk_fail" },
 	{ 0x4f418e78, "filp_close" },
+	{ 0xf9a482f9, "msleep" },
 	{ 0x481ead8c, "wake_up_process" },
 	{ 0x683eadc2, "kthread_create_on_node" },
 	{ 0x1e6d26a8, "strstr" },
 	{ 0x87a21cb3, "__ubsan_handle_out_of_bounds" },
 	{ 0xc69def87, "kernel_read" },
 	{ 0xb3f7646e, "kthread_should_stop" },
-	{ 0xf9a482f9, "msleep" },
 	{ 0x2e4bbc99, "send_sig" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
 	{ 0x92997ed8, "_printk" },
@@ -52,4 +52,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "566F23C5968B528F0E41216");
+MODULE_INFO(srcversion, "5F057E720161159C6D2C802");
