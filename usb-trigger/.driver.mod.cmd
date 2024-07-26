@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Documents/usb-driver/usb-trigger/driver.mod := { echo  /home/pseudoku/Documents/usb-driver/usb-trigger/driver.o;  echo; } > /home/pseudoku/Documents/usb-driver/usb-trigger/driver.mod

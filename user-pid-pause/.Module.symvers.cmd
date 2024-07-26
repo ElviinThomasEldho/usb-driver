@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Documents/usb-driver/user-pid-pause/Module.symvers := sed 's/\.ko$$/\.o/' /home/pseudoku/Documents/usb-driver/user-pid-pause/modules.order | scripts/mod/modpost -m -a  -o /home/pseudoku/Documents/usb-driver/user-pid-pause/Module.symvers -e -i Module.symvers   -T -

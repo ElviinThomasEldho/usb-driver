@@ -1,0 +1,1 @@
+savedcmd_/home/pseudoku/Desktop/GenRobotics/usbReadWrite/usb-read-write.mod := printf '%s\n'   usb-read-write.o | awk '!x[$$0]++ { print("/home/pseudoku/Desktop/GenRobotics/usbReadWrite/"$$0) }' > /home/pseudoku/Desktop/GenRobotics/usbReadWrite/usb-read-write.mod

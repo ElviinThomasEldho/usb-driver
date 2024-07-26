@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Documents/usb-driver/ppause/modules.order := {   echo /home/pseudoku/Documents/usb-driver/ppause/pause_mod.ko; :; } | awk '!x[$$0]++' - > /home/pseudoku/Documents/usb-driver/ppause/modules.order

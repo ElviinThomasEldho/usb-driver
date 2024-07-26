@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Documents/usb-driver/usb-trigger/modules.order := {   echo /home/pseudoku/Documents/usb-driver/usb-trigger/driver.ko; :; } | awk '!x[$$0]++' - > /home/pseudoku/Documents/usb-driver/usb-trigger/modules.order

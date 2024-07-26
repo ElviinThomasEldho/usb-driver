@@ -1,0 +1,1 @@
+cmd_/home/pseudoku/Desktop/UltrasonicTrigger/pause_mod.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/pseudoku/Desktop/UltrasonicTrigger/pause_mod.ko /home/pseudoku/Desktop/UltrasonicTrigger/pause_mod.o /home/pseudoku/Desktop/UltrasonicTrigger/pause_mod.mod.o;  true
