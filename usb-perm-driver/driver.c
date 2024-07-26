@@ -47,7 +47,7 @@
 static mode_t original_mode;
 static int mode_saved = 0;
 
-static const char *directory_path = "/home/elviin/Desktop/test";
+static const char *directory_path = "/home/pseudoku/Desktop/test";
 
 
 static int remove_directory_permissions(const char *path)

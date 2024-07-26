@@ -1,2 +1,2 @@
-/home/elviin/Desktop/usb-driver/usb-perm-driver/driver.o
+/home/pseudoku/Documents/usb-driver/usb-perm-driver/driver.o
 

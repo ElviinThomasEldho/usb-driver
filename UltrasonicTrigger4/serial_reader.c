@@ -113,7 +113,6 @@ static int serial_reader_thread(void *data) {
                 if (IS_ERR(task)) {
                     printk(KERN_ALERT "Failed to create thread\n");
                 }         
-
             }                   
         }
         msleep(1000); // Sleep for 1 second
