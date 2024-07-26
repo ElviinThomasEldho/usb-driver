@@ -1,1 +1,0 @@
-cmd_/home/pseudoku/Documents/usb-driver/UltrasonicTrigger4/serial_reader.mod := { echo  /home/pseudoku/Documents/usb-driver/UltrasonicTrigger4/serial_reader.o;  echo; } > /home/pseudoku/Documents/usb-driver/UltrasonicTrigger4/serial_reader.mod
